@@ -1,0 +1,36 @@
+baseURL = "http://stummjr.github.io/"
+languageCode = "en-us"
+title = "Dunder Doc"
+theme = "hugo-lamp"
+
+
+[params]
+  mainSections = ["post"]
+  subtitle = "Python tips for everyone!"
+  author = "Valdir Stumm Jr"
+  logo = "/img/avatar.jpg"
+  description = "Random thoughts and tips on programming."
+  paginate = 10
+
+  # Social networks
+  github = "stummjr"
+  twitter = "stummjr"
+  linkedin = "stummjr"
+  instagram = "stummjr"
+  youtube = "stummjr"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  identifier = "blog"
+  url = "/post/"
+
+[[menu.main]]
+  name = "About"
+  weight = 2
+  identifier = "about"
+  url = "/about/"
