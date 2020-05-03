@@ -2,6 +2,7 @@
 title: "The curious case of the else in Python loops"
 date: 2018-09-05T15:42:35-03:00
 tags: [python, programming, loops]
+author: Valdir Stumm Jr
 draft: false
 ---
 

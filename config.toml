@@ -6,7 +6,7 @@ theme = "hugo-lamp"
 
 [params]
   mainSections = ["post"]
-  subtitle = "Python tips for everyone!"
+  subtitle = "by Valdir Stumm Jr"
   author = "Valdir Stumm Jr"
   logo = "/img/avatar.jpg"
   description = "Random thoughts and tips on programming."
@@ -14,9 +14,9 @@ theme = "hugo-lamp"
 
   # Social networks
   github = "stummjr"
-  twitter = "stummjr"
   linkedin = "stummjr"
   instagram = "stummjr"
+  twitter = "stummjr"
   youtube = "stummjr"
 
 [taxonomies]

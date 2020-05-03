@@ -2,6 +2,7 @@
 title: "Building a custom Flake8 plugin"
 date: 2018-12-31T15:42:35-03:00
 tags: [python, linter, flake8, ast]
+author: Valdir Stumm Jr
 draft: false
 ---
 

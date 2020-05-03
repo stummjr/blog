@@ -3,6 +3,7 @@ title: "Python 3 rounding oddities"
 author: "Valdir Stumm Jr"
 tags: ["python", "rounding"]
 date: 2018-08-28T15:55:13-03:00
+author: Valdir Stumm Jr
 draft: false
 ---
 

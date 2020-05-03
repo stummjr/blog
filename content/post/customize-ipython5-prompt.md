@@ -3,6 +3,7 @@ title: "How to customize your IPython 5+ prompt"
 author: "Valdir Stumm Jr"
 tags: ["python", "ipython", "shell"]
 date: 2018-09-02T15:55:13-03:00
+author: Valdir Stumm Jr
 draft: false
 ---
 

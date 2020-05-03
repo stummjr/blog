@@ -2,6 +2,7 @@
 title: "Drop Duplicates from a List in Order"
 date: 2018-08-27T15:42:35-03:00
 tags: [python, programming, list]
+author: Valdir Stumm Jr
 draft: false
 ---
 

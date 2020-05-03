@@ -3,6 +3,7 @@ title: "Debugging Python with pudb"
 date: 2020-05-01T15:42:35-03:00
 tags: [python, debugging]
 draft: false
+author: Valdir Stumm Jr
 ---
 
 
