@@ -1,5 +1,5 @@
-# blog
-My personal blog
+# My personal blog
+My personal blog, powered by [Hugo](https://gohugo.io/).
 
 
 ## How to deploy
