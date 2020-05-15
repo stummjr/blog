@@ -1,5 +1,5 @@
 ---
-title: "Why I stopped using dark backgrounds"
+title: "Why I Abandoned Dark Mode"
 author: "Valdir Stumm Jr"
 tags: ["coding", "life"]
 date: 2020-05-07T15:55:13-03:00
@@ -27,8 +27,8 @@ I found out about them in this [SE answer](https://ux.stackexchange.com/a/53268)
 Check out [this blog post](https://jessicaotis.com/academia/never-use-white-text-on-a-black-background-astygmatism-and-conference-slides/)
 to see how it feels.
 
-# How I fixed this
-All I did was changing my whole desktop to use a light background for everything. [Solarized Light](https://ethanschoonover.com/solarized/) is my favorite color scheme for my editor, terminal, and many other apps. This is how my development environment looks
+# How I fixed the issue
+To avoid this issue, all I did was changing my whole desktop to use a light background for everything. [Solarized Light](https://ethanschoonover.com/solarized/) is my favorite color scheme for my editor, terminal, and many other apps. This is how my development environment looks
 like these days:
 
 {{< figure src="/img/light-env.png" width="500" >}}
@@ -46,7 +46,7 @@ environment for too much time as they suffer from eye strain after a few hours.
 From a reader perspective, though, there are multiple studies showing that it's harder to read in _light-on-dark_ than in _dark-on-light_.
 
 
-## A call for conference speakers
+## It gets worse at conferences
 I've been in countless conferences where the speaker used a dark background to present snippets of code. Me during their talks:
 
 {{< figure src="/img/michael-scott-i-understand-nothing.png" width="500" >}}
