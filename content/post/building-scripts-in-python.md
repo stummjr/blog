@@ -1,8 +1,8 @@
 ---
-title: "Building command line scripts like a pro with Python"
+title: "Tips for boosting your Python scripts"
 author: "Valdir Stumm Jr"
 tags: ["python", "tools", "libraries"]
-date: 2020-05-15T15:55:13-03:00
+date: 2020-05-19T23:19:13-03:00
 author: Valdir Stumm Jr
 draft: false
 ---
