@@ -51,7 +51,7 @@ to take the fall. No hard feelings at all.
 
 # A word of advice, if I may
 I work on a small team, in a relatively new codebase well covered with tests. We rarely have
-more than 20 pull requests open simultaneosuly. That all made it easier start using black.
+more than 20 pull requests open simultaneosuly. That all made it easier to start using black.
 
 Once you decide to adopt it, you'll want to reformat your whole codebase using it. That means that
 most of your open PRs will have some sort of conflict, and that can be a pain if you have tons of them.
