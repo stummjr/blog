@@ -4,7 +4,7 @@ author: "Valdir Stumm Jr"
 tags: ["python", "tools", "libraries"]
 date: 2020-05-23T10:19:13-03:00
 author: Valdir Stumm Jr
-draft: false
+draft: true
 ---
 
 I’ve always been a bit skeptical about code formatters. I don’t know, I always felt like
