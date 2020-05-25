@@ -26,8 +26,8 @@ to make Python codebases all around look at least similar in their format.
 
 # What changed my mind?
 Fast forward one year and I see myself posting a lot of change requests in PRs asking people
-to format their code to match **my personal preferences**. That attitude can delay PRs, and also estimulate
-long and frustrating discussions to everyone involved, including myself.
+to format their code to match **my personal preferences**. That attitude can delay PRs and trigger
+long and frustrating discussions.
 
 Perhaps having coding guidelines outlining the rules on code style could have helped. It would certainly have
 helped onboarding new team members. While we all have PEP-8 as a common idiom, there are many issues that go
