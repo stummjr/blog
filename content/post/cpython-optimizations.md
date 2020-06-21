@@ -151,7 +151,7 @@ Constant folding is not used exclusively for arithmetic expressions. Expressions
               2 RETURN_VALUE
 ```
 
-See how the bytecode contains the computed version of the string `s` already. Not all string operations will be folded, though:
+See how the bytecode contains the computed version of the string already. Not all string operations will be folded, though:
 
 ```python
 >>> def func():
