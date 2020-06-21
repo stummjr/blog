@@ -118,7 +118,7 @@ Another advantage is that interned strings can be compared using pointer compari
 ```python
 kilobyte = 8 * 1024
 ```
-People usually do that so that other people reading their code can get a better grasp on how an otherwise "magic" value (8096 in this case) was actually defined.
+People usually do that so that other people reading their code can get a better grasp on how an otherwise "magic" value (8192 in this case) was actually defined.
 
 The CPython interpreter folds that expression into a constant while compiling the source code (`.py`) into bytecode (`.pyc`). In practical terms, it means that the resulting bytecode won't contain the `8 * 1024` expression, but the `8192` constant instead. We are basically trading run time for compile time. Imagine if `kilobyte` was defined in a function that is called thousands of times during a program execution. We'd have thousands of multiplications, all happening in runtime.
 
@@ -215,11 +215,11 @@ As far as I can tell, CPython **does not do** [Constant Propagation](https://en.
 
 ```python
 >>> def func():
-        kilobyte = 8096
+        kilobyte = 8192
         megabyte = kilobyte * 1024
 
 >>> dis.dis(func)
-  2           0 LOAD_CONST               1 (8096)
+  2           0 LOAD_CONST               1 (8192)
               2 STORE_FAST               0 (kilobyte)
 
   3           4 LOAD_FAST                0 (kilobyte)
