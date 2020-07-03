@@ -131,13 +131,13 @@ def parse_blog_post(self, response):
     for link in links:
         yield scrapy.Request(
             link,
-            meta={"author": author, "date": post_date},
+            meta={"author": author, "post_date": post_date},
             callback=self.parse_full_blog_post,
         )
 
 def parse_full_blog_post(self, response):
-    author = response.meta["author]
-    post_date = response.meta["post_date]
+    author = response.meta["author"]
+    post_date = response.meta["post_date"]
     ...
 ```
 
@@ -149,7 +149,7 @@ def parse_blog_post(self, response):
     ...
     yield from response.follow_all(
         links,
-        cb_kwargs={"author": author, "date": post_date},
+        cb_kwargs={"author": author, "post_date": post_date},
         callback=self.parse_full_blog_post,
     )
 
