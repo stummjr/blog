@@ -4,7 +4,7 @@ author: "Valdir Stumm Jr"
 tags: ["python", "til", "tips"]
 date: 2020-07-12T15:55:13-03:00
 author: Valdir Stumm Jr
-draft: true
+draft: false
 ---
 
 The other day I was building a Python script to fetch some information about all my repositories on GitHub.
