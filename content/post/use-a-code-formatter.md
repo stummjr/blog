@@ -1,15 +1,15 @@
 ---
-title: "Black formats my code, and it should format yours too"
+title: "Black formats my code, and maybe it should format yours too"
 author: "Valdir Stumm Jr"
-tags: ["python", "tools", "libraries"]
-date: 2020-05-23T10:19:13-03:00
+tags: ["python", "tools", "best practices"]
+date: 2020-07-18T10:19:13-03:00
 author: Valdir Stumm Jr
-draft: true
+draft: false
 ---
 
 I’ve always been a bit skeptical about code formatters. I don’t know, I always felt like
-they would curb my freedom to format the code in my way. *Because, you know, no one formats code
-better than me. Are you telling me that a tool does? Get out of here!*
+they would curb my freedom to format the code in my own way. *Because, you know, no one formats code
+better than me.* 😛
 
 Joking aside, I got to know [`black`](https://github.com/psf/black) about 2 years ago.
 Everyone was talking about it. A bunch of people adopted it.
@@ -55,20 +55,18 @@ more than 20 pull requests open simultaneosuly. That all made it easier to start
 
 Once you decide to adopt it, you'll want to reformat your whole codebase using it. That means that
 most of your open PRs will have some sort of conflict, and that can be a pain if you have tons of them.
-The PR reformatting your code will likely be humongous, and careful reviews will be required to make sure
-nothing gets messed up. If your codebase is not well tested, this can become even more daunting.
-A solution to this may be to apply `black` incrementally in your codebase. Check out this Github Action
-to help you with that: [Gradual Black Formatter](https://github.com/marketplace/actions/gradual-black-formatter).
+The PR reformatting your code will likely be humongous. A solution to this may be to apply `black` 
+incrementally in your codebase. Check out this Github Action to help you with that:
+[Gradual Black Formatter](https://github.com/marketplace/actions/gradual-black-formatter).
 
 Finally, your revision history will now have a huge "Reformat codebase" commit under your name. If you have the
-habit of digging into your project's revisions, I am sure you would not like that much. The good news is that
+habit of digging into your project's revisions, I am sure that's going to bother you. The good news is that
 `git blame` allows you to ignore specific revisions so that they don't show up when you are scavenging
 commits. You can do that via the
 [`--ignore-rev`](https://git-scm.com/docs/git-blame#Documentation/git-blame.txt---ignore-revltrevgt) and
-[`--ignore-revs-file`](https://git-scm.com/docs/git-blame#Documentation/git-blame.txt---ignore-revs-fileltfilegt)
-options.
+[`--ignore-revs-file`](https://git-scm.com/docs/git-blame#Documentation/git-blame.txt---ignore-revs-fileltfilegt) options.
 
-This section is not meant to discourage you, as adopting black is worth the potential trouble.
+This section is not meant to discourage you, as adopting `black` is worth the potential trouble.
 I just want you to know that you may face some roadbumps to get there.
 
 
@@ -83,8 +81,8 @@ My team enforces `black` via git commit hooks. To do that, we use the excellent
 in their local setup. Once everyone does that, no one will be allowed to even commit their changes locally
 in case there are violations.
 
-This is somewhat effective. But, as I said before, we're all humans and humans forget stuff. I did forget it
-once (*or maybe twice ...*) when setting up the development environment in new machines. Thankfully, the
+This is *somewhat* effective. But, as I said before, we're all humans and humans forget stuff. I did forget it
+once (*or maybe twice...* 😄) when setting up the development environment in new machines. Thankfully, the
 project has a CI setup that fails the PR build in case `black` detects violations.
 
 So this is what I suggest you to do:
@@ -93,12 +91,12 @@ So this is what I suggest you to do:
 2. Make sure your "Contribution Guidelines" doc provides the installation instructions.
 3. Setup a check on your CI to fail the build in case `black` detects violations.
 
-This can all be easily achieved with pre-commit and github actions. I've created a very simple
+This can all be easily achieved with pre-commit and GitHub Actions. I've created a very simple
 project to demonstrate that setup: https://github.com/stummjr/black_setup_project
 
 
 # Wrapping up
-These days, I am a huge fan of `black`. Of course, there are still some lingering pet-peeves. But that's just because
-black is as opinionated as me. Black ain't gonna change, but I can. :)
+These days, I am a huge fan of `black`. Of course, there are still some lingering pet-peeves.
+But that's just because black is as opinionated as me. Black ain't gonna change, but I can. :)
 
 Setting up black worked pretty well on my team, and may be worth a shot on yours as well.
