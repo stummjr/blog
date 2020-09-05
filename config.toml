@@ -2,7 +2,6 @@ baseURL = "http://stummjr.github.io/"
 languageCode = "en-us"
 title = "Dunder Doc"
 theme = "hugo-lamp"
-googleAnalytics = "UA-81743219-1"
 
 [params]
   mainSections = ["post"]
