@@ -19,6 +19,7 @@ Here's how I install it on my Mac + Zsh:
 
 ```
 $ brew install pyenv pyenv-virtualenv
+$ echo 'eval "$(pyenv init --path)"' >> ~/.zprofile
 $ echo 'eval "$(pyenv init -)"' >> ~/.zshrc
 $ echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.zshrc
 ```
