@@ -4,7 +4,7 @@ author: "Valdir Stumm Jr"
 date: 2020-05-02T15:55:13-03:00
 ---
 
-I'm Valdir (pronounced as *val-geer*), a software developer passionate about Python, automation and writing. I'm currently an Engineering Manager at [BriteCore](https://www.britecore.com/).
+I'm Valdir (pronounced as *val-geer*), a software developer passionate about Python, automation and writing.
 
 My background includes web development with Django & Vue.js, several AWS technologies, large scale web crawling with Scrapy and years of teaching and mentoring experience.
 
