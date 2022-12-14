@@ -6,7 +6,7 @@ date: 2022-12-12T15:55:13-03:00
 
 Hi! I'm Valdir (pronounced as *val-geer*), a software developer from Brazil.
 
-If you've reached out this page, you're probably at least a little interested to learn more about me. So here we go:
+If you've reached out this page, I assume that you're probably at least a little interested to learn more about me. So here we go:
 
 My professional background includes web development with Python (Django, DRF, Sanic), Vue.js, several AWS technologies, large scale web crawling with Scrapy and years of teaching and mentoring experience.
 
